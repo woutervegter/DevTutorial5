@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="text_h1" parent="@android:style/Widget.TextView">
+		<item name="android:shadowDy">-1</item>
+		<item name="android:shadowRadius">1</item>
+		<item name="android:shadowColor">@color/shadow_dark_up</item>
+		<item name="android:textSize">16dip</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:typeface">sans</item>
+		<item name="android:textColor">@color/text_h1</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:text">*Nog niet ingevuld*</item>
+	</style>
+
+	<style name="text_p" parent="@android:style/Widget.TextView">
+		<item name="android:shadowDy">1</item>
+		<item name="android:shadowRadius">1</item>
+		<item name="android:shadowColor">@color/shadow_light_down</item>
+		<item name="android:textSize">13dip</item>
+		<item name="android:typeface">sans</item>
+		<item name="android:textColor">@color/text_p</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:text">*Nog niet ingevuld*</item>
+	</style>
+
+</resources>

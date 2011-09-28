@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="glare_top">#40ffffff</color>
+    <color name="glare_bottom">#30000000</color>
+    <color name="app_bg_top">#E6E6E6</color>
+    <color name="app_bg_bottom">#D8D8D8</color>
+    <color name="header_top">#2E2EFE</color>
+    <color name="header_bottom">#0101DF</color>
+    <color name="shadow_dark_up">#80000000</color>
+    <color name="text_h1">#ffffff</color>
+    <color name="glare_light_top">#20ffffff</color>
+    <color name="glare_light_bottom">#40ffffff</color>
+    <color name="shadow_light_down">#ffffff</color>
+    <color name="text_p">#444444</color>
+</resources>

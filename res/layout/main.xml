@@ -1,0 +1,8 @@
+
+    <RelativeLayout android:padding="10dip" android:id="@+id/RelativeLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:clickable="true" android:onClick="downloadUserInfo" android:text="Download" android:id="@+id/btnDownload" android:layout_alignParentTop="true" android:layout_alignParentLeft="true"></Button>
+    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:hint="Twitter username..." android:id="@+id/etxtUsername" android:inputType="text" android:layout_alignParentTop="true" android:layout_toRightOf="@+id/btnDownload"></EditText>
+    <ScrollView android:id="@+id/scrollView1" android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_below="@+id/btnDownload">
+            <TextView android:textColor="#FFFFFFFF" android:text="Nog geen gebruikersgegevens bekend" android:id="@+id/txtvUserInfo" android:background="#FF0066" android:layout_width="fill_parent" android:layout_height="fill_parent"></TextView>
+    </ScrollView>
+    </RelativeLayout>

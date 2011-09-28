@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item>
+		<shape>
+			<gradient android:startColor="@color/header_top"
+				android:endColor="@color/header_bottom" android:angle="270" />
+		</shape>
+	</item>
+	<item android:drawable="@drawable/glare" />
+	<item android:bottom="1px" android:top="1px">
+		<shape>
+			<gradient android:startColor="@color/header_top"
+				android:endColor="@color/header_bottom" android:angle="270" />
+		</shape>
+	</item>
+</layer-list>

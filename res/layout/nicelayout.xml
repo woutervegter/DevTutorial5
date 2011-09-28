@@ -1,0 +1,13 @@
+
+    <LinearLayout android:id="@+id/LinearLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical">
+    	<RelativeLayout android:id="@+id/relativeLayout2" android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="44dip" android:background="@drawable/bg_header">
+    		<TextView android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_centerInParent="true" style="@style/text_h1" android:text="Twitter downloader"></TextView>
+    	</RelativeLayout>
+        <RelativeLayout android:padding="10dip" android:id="@+id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/bg_app">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:clickable="true" android:onClick="downloadUserInfo" android:text="Download" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:id="@+id/btnDownload"></Button>
+    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:hint="Twitter username..." android:id="@+id/etxtUsername" android:layout_toRightOf="@+id/btnDownload" android:inputType="text"></EditText>
+    <ScrollView android:id="@+id/scrollView1" android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_below="@+id/btnDownload">>
+        <TextView android:layout_height="fill_parent" android:background="@drawable/glare_light" android:id="@+id/txtvUserInfo" android:layout_width="fill_parent" android:text="Nog geen gebruikersgegevens bekend" style="@style/text_p"></TextView>
+    </ScrollView>
+    </RelativeLayout>
+    </LinearLayout>
